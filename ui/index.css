@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "Chinese Rocks";
+	src: url('fonts/CHINESER.TTF');
+}
+
+html, body {
+	background: none;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding:0;
+}
+
+#simpleNote {
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	margin: 2vh 3vw 2vh 3vw;
+	padding-top: 1.5vh;
+	padding-right: 2vw;
+	color: white;
+	padding-left: 2vw;
+	padding-bottom: 1.5vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	font-family: "Chinese Rocks";
+	text-align: center;
+	max-width: 30vw;
+}
+
+.notification {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	margin: 0.5vh 0.5vw 0.5vh 0.5vw;
+	border-radius: 0.5vw;
+}
+
+.notification .title {
+	padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+	font-size: 1.5vw;
+	font-family: "Chinese Rocks";
+}
+
+.notification .text {
+	padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+	font-size: 1.1vw;
+}
